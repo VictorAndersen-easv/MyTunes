@@ -1,7 +1,6 @@
 package dk.easv.mytunes.DAL.db;
 
-import BE.Song;
-import DAL.ISongDataAccess;
+
 
 import java.io.IOException;
 import java.sql.*;
