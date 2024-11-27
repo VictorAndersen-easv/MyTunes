@@ -19,25 +19,25 @@
    <children>
       <AnchorPane prefHeight="691.0" prefWidth="881.0" style="-fx-background-color: #cceeff;">
          <children>
-            <Button layoutX="14.0" layoutY="34.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #68b2f7;" text="⏮">
+            <Button fx:id="previousbtn" layoutX="14.0" layoutY="34.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #68b2f7;" text="⏮">
                <font>
                   <Font name="System Bold Italic" size="13.0" />
                </font></Button>
-            <Button layoutX="75.0" layoutY="34.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="33.0" style="-fx-background-color: #68b2f7;" text="▶">
+            <Button fx:id="playbtn" layoutX="75.0" layoutY="34.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="33.0" style="-fx-background-color: #68b2f7;" text="▶">
                <font>
                   <Font name="System Bold Italic" size="13.0" />
                </font></Button>
-            <Button layoutX="165.0" layoutY="34.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #68b2f7;" text="⏭">
+            <Button fx:id="nextbtn" layoutX="165.0" layoutY="34.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #68b2f7;" text="⏭">
                <font>
                   <Font name="System Bold Italic" size="13.0" />
                </font></Button>
             <Slider layoutX="50.0" layoutY="80.0" />
             <Label layoutX="367.0" layoutY="38.0" text="CurrentTrack" />
             <TextField layoutX="687.0" layoutY="21.0" prefHeight="26.0" prefWidth="121.0" />
-            <Button layoutX="822.0" layoutY="21.0" mnemonicParsing="false" style="-fx-background-color: #68b2f7;" text="Ɑ͞ ̶͞ ̶͞ ̶͞ لں͞" />
+            <Button fx:id="searchbtn" layoutX="822.0" layoutY="21.0" mnemonicParsing="false" style="-fx-background-color: #68b2f7;" text="Ɑ͞ ̶͞ ̶͞ ̶͞ لں͞" />
             <Label layoutX="644.0" layoutY="25.0" text="Filter:">
                <font>
-                  <Font name="System Bold Italic" size="12.0" />
+                  <Font name="System Bold" size="14.0" />
                </font></Label>
             <TableView layoutX="20.0" layoutY="148.0" prefHeight="478.0" prefWidth="230.0" style="-fx-background-color: #abe3ff;">
               <columns>
@@ -55,14 +55,14 @@
                   <TableColumn prefWidth="79.20003662109377" style="-fx-background-color: #72cbf7;" text="Duration" />
                </columns>
             </TableView>
-            <Label layoutX="26.0" layoutY="130.0" text="Playlists">
+            <Label layoutX="23.0" layoutY="129.0" text="Playlists">
                <font>
-                  <Font name="System Bold Italic" size="12.0" />
+                  <Font name="System Bold" size="14.0" />
                </font></Label>
             <Button layoutX="529.0" layoutY="171.0" mnemonicParsing="false" style="-fx-background-color: #68b2f7;" text="⮜" />
             <Button layoutX="320.0" layoutY="640.0" mnemonicParsing="false" style="-fx-background-color: #68b2f7;" text="▲" />
             <Button layoutX="367.0" layoutY="640.0" mnemonicParsing="false" style="-fx-background-color: #68b2f7;" text="▼" />
-            <Button layoutX="119.0" layoutY="34.0" mnemonicParsing="false" style="-fx-background-color: #68b2f7;" text=" ⏸ ">
+            <Button fx:id="pausebtn" layoutX="119.0" layoutY="34.0" mnemonicParsing="false" style="-fx-background-color: #68b2f7;" text=" ⏸ ">
                <font>
                   <Font name="System Bold Italic" size="13.0" />
                </font></Button>
@@ -101,11 +101,11 @@
             <Label layoutX="209.0" layoutY="78.0" prefWidth="15.0" text="🕪" />
             <Label layoutX="319.0" layoutY="130.0" text="Songs on playlist">
                <font>
-                  <Font name="System Bold Italic" size="12.0" />
+                  <Font name="System Bold" size="14.0" />
                </font></Label>
-            <Label layoutX="587.0" layoutY="130.0" text="Songs">
+            <Label layoutX="578.0" layoutY="130.0" text="Songs">
                <font>
-                  <Font name="System Bold Italic" size="12.0" />
+                  <Font name="System Bold" size="14.0" />
                </font></Label>
          </children>
       </AnchorPane>
